@@ -1,0 +1,24 @@
+---
+abstract: 'We are Taiwanese CPAN Authors!'
+author:
+  - 'Kang-min Liu  C<< <gugod@gugod.org> >>'
+build_requires:
+  Test::More: 0.42
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Acme::CPANAuthors::Taiwanese
+name: Acme-CPANAuthors-Taiwanese
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Acme::CPANAuthors: 0.06
+  Acme::CPANAuthors::Register: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.02
