@@ -21,4 +21,4 @@ requires:
   Acme::CPANAuthors::Register: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
