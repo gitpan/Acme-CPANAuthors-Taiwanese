@@ -1,28 +1,25 @@
 ---
 abstract: 'We are Taiwanese CPAN Authors!'
 author:
-  - 'Kang-min Liu  C<< <gugod@gugod.org> >>'
+  - 'Kang-min Liu <gugod@gugod.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
-  Test::More: 0.42
+  Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 0.91'
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-module_name: Acme::CPANAuthors::Taiwanese
 name: Acme-CPANAuthors-Taiwanese
-no_index:
-  directory:
-    - inc
-    - t
-    - xt
 requires:
-  Acme::CPANAuthors: 0.06
   Acme::CPANAuthors::Register: 0
+  perl: 5.008
+  strict: 0
+  utf8: 0
+  warnings: 0
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.07
+  bugtracker: https://github.com/gugod/acme-cpanauthors-taiwanese/issues
+  repository: git://github.com/gugod/acme-cpanauthors-taiwanese.git
+version: 0.08
